@@ -226,3 +226,16 @@ MVP：一座岛屿（独眼巨人洞穴）、一名英雄、五名船员单位�
 - 英文 UI和 15 秒教程。
 - 15-18MB 首包，第一次可在 10 秒内播放，在 4GB Chromebook 上以 60fps 播放。
 - 十名外部游戏测试员可以在一轮运行后解释目标和合成规则。
+## 25. Three release targets
+
+> 三个版本：移动端中文版、移动端英文版、PC 网页英文版。共享核心玩法，不做玩法分叉。
+
+The design supports three release packages, not three gameplay forks:
+
+- **Mobile-CN**: iOS/Android, Simplified Chinese, portrait, touch, China distribution, compliance, ads + cosmetic IAP.
+- **Mobile-EN**: iOS/Android, English, portrait, touch, global stores, ads + cosmetic IAP.
+- **PC Web-EN**: desktop browser and CrazyGames, English, landscape, mouse + keyboard, CrazyGames ads only.
+
+The shared core contains battle simulation, content data, balance, save schema, ghost format, and analytics. The platform layer contains UI shell, input, language, SDK, lifecycle, monetization, compliance, and performance budget. No combat fork.
+
+Mobile is portrait-only for v1. PC Web is landscape-only. See `docs/PLATFORM_VERSIONS.md` for the full matrix, build commands, QA matrix, and release sequence.

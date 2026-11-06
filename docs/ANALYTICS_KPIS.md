@@ -86,3 +86,14 @@
 ## 8. 仪器质量检查
 
 每个事件都必须在开发中的调试控制台中可见。在暂存过程中，验证事件触发一次且仅触发一次。使用类型化的事件图；拼写错误是构建错误。切勿发送带有未定义字段的事件。
+## 9. Release-target dimensions
+
+Every event includes `release_target`:
+
+- `web_en` - PC Web-EN / CrazyGames.
+- `mobile_en` - global iOS/Android.
+- `mobile_cn` - China iOS/Android.
+
+Also include `locale`, `platform`, `app_version`, `orientation`, and `build_channel`. Report the core funnel separately for each release target. Do not blend China mobile activation with CrazyGames conversion; the traffic sources and definitions differ.
+
+Primary comparison: tutorial completion, first-run completion, second-run start, session length, crash rate, and ad/IAP opt-in by target. Cross-target cloud save and leaderboards are out of scope for launch.

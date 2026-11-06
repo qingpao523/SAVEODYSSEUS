@@ -231,3 +231,15 @@ No energy, no login wall, no pay-to-win. Ads are end-of-run only. Cosmetic purch
 - English UI and 15-second tutorial.
 - 15-18MB first build, first playable under 10 seconds, 60fps on a 4GB Chromebook.
 - Ten external playtesters can explain the goal and the merge rule after one run.
+
+## 25. Three release targets
+
+The design supports three release packages, not three gameplay forks:
+
+- **Mobile-CN**: iOS/Android, Simplified Chinese, portrait, touch, China distribution, compliance, ads + cosmetic IAP.
+- **Mobile-EN**: iOS/Android, English, portrait, touch, global stores, ads + cosmetic IAP.
+- **PC Web-EN**: desktop browser and CrazyGames, English, landscape, mouse + keyboard, CrazyGames ads only.
+
+The shared core contains battle simulation, content data, balance, save schema, ghost format, and analytics. The platform layer contains UI shell, input, language, SDK, lifecycle, monetization, compliance, and performance budget. No combat fork.
+
+Mobile is portrait-only for v1. PC Web is landscape-only. See `docs/PLATFORM_VERSIONS.md`.

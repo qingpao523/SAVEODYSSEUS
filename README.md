@@ -22,6 +22,7 @@
 |文件|目的|
 |---|---|
 | [docs/GDD.md](docs/GDD.md) |完整的游戏设计：循环、系统、模式、用户体验、内容范围 |
+| [docs/PLATFORM_VERSIONS.md](docs/PLATFORM_VERSIONS.md) | Three release targets: Mobile-CN, Mobile-EN, PC Web-EN |
 | [docs/WEB_BUILD_SPEC.md](docs/WEB_BUILD_SPEC.md) | Web 架构、CrazyGames SDK、性能、响应式布局 |
 | [docs/CONTENT_BIBLE.md](docs/CONTENT_BIBLE.md) |世界、岛屿、Boss、船员、神明、祝福、敌人 |
 | [docs/BALANCE.md](docs/BALANCE.md) |波表、单位统计、经济、难度、奖励曲线 |
@@ -52,3 +53,21 @@
 ## Language note
 
 The Chinese documents are the working translation for review. The English source drafts are in [`docs/en/`](docs/en/) and are the source of truth for terminology, UI copy, and implementation details.
+
+## Three release targets
+
+> 三个版本：移动端中文版、移动端英文版、PC 网页英文版。共享同一套核心玩法与内容，不做玩法分叉。
+
+The product ships as three release packages, not three separate games:
+
+| Target | Platform | Language | Layout |
+|---|---|---|---|
+| Mobile-CN | iOS / Android | Simplified Chinese | Portrait touch |
+| Mobile-EN | iOS / Android | English | Portrait touch |
+| PC Web-EN | Desktop browser / CrazyGames | English | Landscape mouse + keyboard |
+
+All three share the same core gameplay, content, balance, save schema, and analytics. They differ only in UI shell, input, language, distribution, SDK, monetization, compliance, and performance budget.
+
+Recommended order: **PC Web-EN -> Mobile-EN -> Mobile-CN**. China mobile compliance is the long pole.
+
+Full matrix: [docs/PLATFORM_VERSIONS.md](docs/PLATFORM_VERSIONS.md)

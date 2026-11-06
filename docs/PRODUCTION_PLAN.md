@@ -89,3 +89,14 @@ MVP 是一个岛屿、一个 Boss、五个船员单位、六个祝福、一个�
 第2周：修复前三个摩擦点； tune one variable.
 第 3-4 周：如果保留率良好，则添加一座岛屿和一名 Boss。
 仅当异步决斗保留率很高并且后端预算获得批准时才添加真正的 PvP。
+## 9. Three release targets
+
+> 三个版本：移动端中文版、移动端英文版、PC 网页英文版。共享核心玩法，不做玩法分叉。
+
+The production plan covers three packages:
+
+1. **PC Web-EN** (P0): CrazyGames validation, weeks 1-8 Basic Launch, weeks 9-12 Full Launch.
+2. **Mobile-EN** (P1): Capacitor wrapper, portrait UI, global stores, weeks 9-16.
+3. **Mobile-CN** (P2): Simplified Chinese, China Android channels first, compliance, weeks 13-20.
+
+Shared core is frozen before mobile packaging starts. Do not fork gameplay. China compliance (game approval, real-name, anti-addiction, payment, privacy) is the long pole and must start before the mobile build is finished. See `docs/PLATFORM_VERSIONS.md`.

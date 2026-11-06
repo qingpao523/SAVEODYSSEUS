@@ -162,3 +162,22 @@ CI：安装、类型检查、lint、战斗/经济单位测试、构建、包大�
 - 英文 UI，15 秒教程，保存/加载。
 - SDK 初始化、加载、游戏开始/停止、静音、结果中的一则游戏中广告。
 - 15-18MB 构建；首次播放时间不超过 10 秒； Chromebook 上为 60 fps。
+## 17. Three build targets
+
+> 三个版本：移动端中文版、移动端英文版、PC 网页英文版。共享核心玩法，不做玩法分叉。
+
+Build one core with three release configurations:
+
+- `build:web-en` - desktop browser, CrazyGames, English, landscape.
+- `build:mobile-en` - iOS/Android Capacitor wrapper, English, portrait.
+- `build:mobile-cn` - iOS/Android China package, Simplified Chinese, portrait, China SDK/payment/compliance adapters.
+
+Shared: combat, grid, merge, waves, bosses, boons, economy, save schema, ghost format, analytics events.
+
+Platform-specific: UI shell, input, language bundle, SDK adapter, lifecycle, safe areas, app-store or channel packaging, ads, IAP, privacy, and performance caps.
+
+Build flags: `RELEASE_TARGET`, `LOCALE`, `PLATFORM`, `MONETIZATION`, `SDK`. Never fork combat code for a platform. If a platform needs a different value, use a config flag.
+
+Budgets: PC Web-EN 15-18MB first build; Mobile-EN/Mobile-CN 40-60MB install, under 100MB total; mobile first launch under 15 seconds on 4G. PC Web 60fps on a 4GB Chromebook; mobile 60fps target and 30fps floor.
+
+See `docs/PLATFORM_VERSIONS.md`.

@@ -44,3 +44,8 @@
 ## 6. 制作人员
 
 包括一个包含美术、音频、代码和本地化制作人员名单的屏幕。如果使用开源库，请将其许可证包含在 `THIRD_PARTY_NOTICES.md` 中。
+## 7. China mobile release note
+
+Mobile-CN is a separate compliance track. Before commercial release in China, confirm game approval number, real-name verification, anti-addiction, privacy policy, data handling, payment compliance, ad review, and Android channel requirements. Do not use the global mobile build as a compliance shortcut. Keep China store text, privacy policy, and payment terms reviewed by local counsel.
+
+PC Web-EN and Mobile-EN still require platform privacy labels, age ratings, and ad/IAP compliance in their target markets.

@@ -44,3 +44,7 @@ The word "Odyssey" is used by many games and brands. **SAVE ODYSSEUS** is the wo
 ## 6. Credits
 
 Include a credits screen with art, audio, code, and localization credits. If using open-source libraries, include their licenses in `THIRD_PARTY_NOTICES.md`.
+
+## 7. China mobile release note
+
+Mobile-CN is a separate compliance track. Before commercial release in China, confirm game approval number, real-name verification, anti-addiction, privacy policy, data handling, payment compliance, ad review, and Android channel requirements. Do not use the global mobile build as a compliance shortcut.

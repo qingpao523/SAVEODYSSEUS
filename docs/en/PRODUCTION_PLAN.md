@@ -90,3 +90,13 @@ Week 1: watch crash rate, tutorial completion, first-run completion, second-run 
 Week 2: fix the top three friction points; tune one variable.
 Week 3-4: add one island and one boss if retention is healthy.
 Only add true PvP if async duel retention is strong and a backend budget is approved.
+
+## 9. Three release targets
+
+The production plan covers three packages:
+
+1. **PC Web-EN** (P0): CrazyGames validation, weeks 1-8 Basic Launch, weeks 9-12 Full Launch.
+2. **Mobile-EN** (P1): Capacitor wrapper, portrait UI, global stores, weeks 9-16.
+3. **Mobile-CN** (P2): Simplified Chinese, China Android channels first, compliance, weeks 13-20.
+
+Shared core is frozen before mobile packaging starts. Do not fork gameplay. China compliance is the long pole. See `docs/PLATFORM_VERSIONS.md`.

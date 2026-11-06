@@ -87,3 +87,13 @@ Cohort: first-time vs returning, desktop vs mobile, landscape vs portrait.
 ## 8. Instrumentation QA
 
 Every event must be visible in the debug console in development. In staging, verify the event fires once and only once. Use a typed event map; a typo is a build error. Never send an event with undefined fields.
+
+## 9. Release-target dimensions
+
+Every event includes `release_target`:
+
+- `web_en` - PC Web-EN / CrazyGames.
+- `mobile_en` - global iOS/Android.
+- `mobile_cn` - China iOS/Android.
+
+Also include `locale`, `platform`, `app_version`, `orientation`, and `build_channel`. Report the core funnel separately for each release target. Do not blend China mobile activation with CrazyGames conversion; the traffic sources and definitions differ.

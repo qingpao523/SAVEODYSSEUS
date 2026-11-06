@@ -166,3 +166,21 @@ CI: install, typecheck, lint, unit tests for combat/economy, build, bundle-size 
 - English UI, 15-second tutorial, save/load.
 - SDK init, loading, gameplayStart/Stop, mute, one midgame ad on result.
 - 15-18MB build; under 10 seconds first playable; 60fps on Chromebook.
+
+## 17. Three build targets
+
+Build one core with three release configurations:
+
+- `build:web-en` - desktop browser, CrazyGames, English, landscape.
+- `build:mobile-en` - iOS/Android Capacitor wrapper, English, portrait.
+- `build:mobile-cn` - iOS/Android China package, Simplified Chinese, portrait, China SDK/payment/compliance adapters.
+
+Shared: combat, grid, merge, waves, bosses, boons, economy, save schema, ghost format, analytics events.
+
+Platform-specific: UI shell, input, language bundle, SDK adapter, lifecycle, safe areas, app-store or channel packaging, ads, IAP, privacy, and performance caps.
+
+Build flags: `RELEASE_TARGET`, `LOCALE`, `PLATFORM`, `MONETIZATION`, `SDK`. Never fork combat code for a platform. If a platform needs a different value, use a config flag.
+
+Budgets: PC Web-EN 15-18MB first build; Mobile-EN/Mobile-CN 40-60MB install, under 100MB total; mobile first launch under 15 seconds on 4G. PC Web 60fps on a 4GB Chromebook; mobile 60fps target and 30fps floor.
+
+See `docs/PLATFORM_VERSIONS.md`.
