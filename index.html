@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAVE ODYSSEUS - Design Deck</title>
+<style>
+:root{--terra:#B84A32;--bronze:#C99A4A;--wine:#2B1B2F;--marble:#F0E6D2;--olive:#6B7A3A;--storm:#1E2A44;--gold:#F2D27A;--ink:#171217;--muted:#b9aa9a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--marble);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:0;z-index:9;background:rgba(23,18,23,.93);border-bottom:1px solid rgba(201,154,74,.25)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:18px;min-height:60px}
+.brand{font-weight:800;letter-spacing:.14em;font-size:13px;color:var(--gold)}
+.links{display:flex;gap:15px;flex-wrap:wrap;font-size:12px}.links a{color:var(--muted)}
+.hero{padding:74px 0 56px;background:radial-gradient(circle at 84% 16%,rgba(201,154,74,.18),transparent 30%),radial-gradient(circle at 8% 80%,rgba(184,74,50,.22),transparent 30%),linear-gradient(180deg,#171217,#211722 55%,#171217)}
+.eyebrow{display:inline-block;border:1px solid rgba(201,154,74,.4);border-radius:999px;padding:6px 12px;font-size:11px;color:var(--bronze);letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(48px,9vw,104px);line-height:.9;letter-spacing:-.045em;margin:20px 0 12px;font-weight:900}h1 span{color:var(--terra)}
+.sub{font-size:clamp(19px,3vw,30px);color:var(--gold);font-weight:600;margin:0 0 16px}
+.lede{font-size:clamp(16px,2vw,20px);max-width:760px;color:#e7dccb;margin:0 0 22px}
+.tag{font-size:14px;color:var(--muted);border-left:3px solid var(--terra);padding-left:14px;margin:24px 0 0;font-style:italic}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;padding:12px 18px;border-radius:8px;font-weight:800;font-size:13px}.primary{background:var(--terra);color:#fff}.ghost{border:1px solid rgba(240,230,210,.28);color:var(--marble)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}.stat{border:1px solid rgba(201,154,74,.24);background:rgba(240,230,210,.035);border-radius:12px;padding:16px}.stat b{display:block;font-size:25px;color:var(--gold);line-height:1}.stat span{display:block;color:var(--muted);font-size:11px;margin-top:8px;text-transform:uppercase;letter-spacing:.08em}
+section{padding:56px 0;border-top:1px solid rgba(201,154,74,.14)}h2{font-size:clamp(26px,4vw,40px);line-height:1;margin:0 0 10px;letter-spacing:-.03em}.kicker{color:var(--bronze);text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:800;margin-bottom:10px}.section-lede{color:var(--muted);max-width:720px;margin:0 0 26px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{border:1px solid rgba(201,154,74,.22);border-radius:12px;padding:20px;background:rgba(240,230,210,.04)}.card h3{margin:0 0 7px;font-size:17px;color:var(--gold)}.card p{margin:0;color:#d5c8b8;font-size:13px}.num{display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;border-radius:50%;border:1px solid rgba(201,154,74,.5);color:var(--bronze);font-weight:800;font-size:12px;margin-bottom:12px}
+.loop{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:24px}.step{padding:15px 12px;border-top:2px solid var(--terra);background:rgba(184,74,50,.08);border-radius:0 0 10px 10px}.step b{display:block;color:var(--gold);font-size:13px;margin-bottom:5px}.step span{font-size:12px;color:var(--muted)}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px}.time{border-left:2px solid rgba(201,154,74,.5);padding:3px 0 3px 12px}.time b{color:var(--gold);font-size:13px}.time span{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:30px}.list{margin:0;padding:0;list-style:none}.list li{padding:10px 0;border-bottom:1px solid rgba(240,230,210,.12);color:#d9cdbd;font-size:14px}.list b{color:var(--marble)}
+.palette{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.sw{width:64px}.sw i{display:block;height:46px;border-radius:8px;border:1px solid rgba(255,255,255,.12)}.sw small{display:block;font-size:10px;color:var(--muted);margin-top:5px}
+.docs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:22px}.doc{display:flex;justify-content:space-between;gap:12px;align-items:center;border:1px solid rgba(201,154,74,.2);border-radius:10px;padding:13px 14px;background:rgba(240,230,210,.03)}.doc b{font-size:13px}.doc span{font-size:11px;color:var(--muted)}
+footer{padding:34px 0 60px;color:var(--muted);font-size:11px;border-top:1px solid rgba(201,154,74,.14)}
+@media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.loop{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}.docs{grid-template-columns:1fr}}
+@media(max-width:560px){.stats,.grid,.loop,.timeline{grid-template-columns:1fr}h1{font-size:54px}.hero{padding-top:50px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><div class="brand">SAVE ODYSSEUS</div><div class="links"><a href="#loop">Loop</a><a href="#systems">Systems</a><a href="#web">Web</a><a href="#art">Art</a><a href="#docs">Docs</a></div></nav></div></header>
+<main>
+<section class="hero"><div class="wrap">
+<div class="eyebrow">Design package v0.1 / Web-first</div>
+<h1>SAVE <span>ODYSSEUS</span></h1>
+<p class="sub">An Odyssey Defense</p>
+<p class="lede">You are Odysseus, the last captain between your crew and the sea. Merge survivors, call on the gods, hold the ship, and bring everyone home to Ithaca.</p>
+<p class="tag">The sea takes everything. You bring them home.</p>
+<div class="cta"><a class="btn primary" href="docs/GDD.md">Read the GDD</a><a class="btn ghost" href="docs/WEB_BUILD_SPEC.md">Web build spec</a></div>
+<div class="stats"><div class="stat"><b>3-4 min</b><span>One run</span></div><div class="stat"><b>5x5</b><span>Merge grid</span></div><div class="stat"><b>3 lanes</b><span>Hold the ship</span></div><div class="stat"><b>6 waves</b><span>+ Cyclops boss</span></div></div>
+</div></section>
+<section id="loop"><div class="wrap"><div class="kicker">Core loop</div><h2>Simple to read. Hard to leave.</h2><p class="section-lede">A small board, a clear threat, and a hero who cannot be everywhere. Every decision is spatial, temporal, or both.</p>
+<div class="loop">
+<div class="step"><b>1. Call</b><span>Summon three crew with drachma.</span></div>
+<div class="step"><b>2. Merge</b><span>Pair identical units into a higher tier.</span></div>
+<div class="step"><b>3. Hold</b><span>Cover three lanes against the sea.</span></div>
+<div class="step"><b>4. Choose</b><span>Take a god boon after waves 2 and 4.</span></div>
+<div class="step"><b>5. Finish</b><span>Kill the boss before the storm breaks the ship.</span></div>
+</div>
+<div class="timeline"><div class="time"><b>0:00-0:15</b><span>Tutorial: call, merge, move, spear.</span></div><div class="time"><b>0:15-1:55</b><span>Waves 1-5. Build, merge, spend.</span></div><div class="time"><b>1:55-2:20</b><span>Boss warning. Final boon.</span></div><div class="time"><b>2:20-3:00</b><span>Cyclops. Storm turns red at 2:30.</span></div></div>
+</div></section>
+<section id="systems"><div class="wrap"><div class="kicker">Systems</div><h2>Six systems, one pressure clock.</h2>
+<div class="grid">
+<div class="card"><div class="num">01</div><h3>Merge crew</h3><p>Hoplite, Archer, Sailor, Shield Wall, Ballista. Two identical units become one stronger unit; coverage shrinks, power spikes.</p></div>
+<div class="card"><div class="num">02</div><h3>Move Odysseus</h3><p>Three lanes. Four-second move cooldown. Spear, Aegis, and Athena's Light. The hero is a decision, not a stat block.</p></div>
+<div class="card"><div class="num">03</div><h3>Hold the hull</h3><p>Three hull sections. Every leak breaks one. A Sailor can repair once per wave. Zero hull ends the run.</p></div>
+<div class="card"><div class="num">04</div><h3>Beat the storm</h3><p>180-second timer. Red at 2:30. At 3:00 the storm deals hull damage every six seconds. A comeback window, not an instant loss.</p></div>
+<div class="card"><div class="num">05</div><h3>Choose a god</h3><p>Athena, Poseidon, Hermes, Hephaestus, Apollo, Circe. Boons change behavior, not just percentages.</p></div>
+<div class="card"><div class="num">06</div><h3>Face the Cyclops</h3><p>Rock throws, slam, eye window. Save the ultimate for the open eye. Do not tell him your name.</p></div>
+</div></div></section>
+<section id="web"><div class="wrap"><div class="two"><div><div class="kicker">Web-first</div><h2>Built for the first ten seconds.</h2><p class="section-lede">CrazyGames is the launch platform. The game must load fast, read at a glance, and feel complete on a 4GB Chromebook and a mid-tier phone.</p>
+<ul class="list"><li><b>Stack:</b> Phaser 3 + TypeScript + Vite; DOM/CSS HUD overlay.</li><li><b>Budget:</b> 15-18MB first build; first playable under 10 seconds.</li><li><b>Layout:</b> landscape primary; portrait reflow; 44px touch targets.</li><li><b>SDK:</b> loading, gameplayStart/Stop, save, mute, locale, end-of-run ads.</li><li><b>No:</b> energy, login wall, pay-to-win, ads during battle, custom fullscreen.</li></ul></div>
+<div><div class="kicker">Audience</div><h2>Global by default.</h2><p class="section-lede">The game is English-first, but the visual promise is culture-light: a ship, a monster, a hero, a storm. The Greek surface is specific; the emotion is universal.</p>
+<ul class="list"><li><b>Primary:</b> tower defense, merge, and short-session players.</li><li><b>Secondary:</b> Greek myth fans and score chasers.</li><li><b>Market:</b> US, Bangladesh, India, Australia, Brazil; desktop and mobile.</li><li><b>Session:</b> 10-15 minutes, 3-4 runs.</li></ul></div></div></div></section>
+<section id="art"><div class="wrap"><div class="two"><div><div class="kicker">Art direction</div><h2>Black-figure pottery, come alive.</h2><p class="section-lede">A museum artifact painted with a story, then animated with wit and weight. Not generic marble-and-gold fantasy. Not a somber history sim.</p>
+<div class="palette"><div class="sw"><i style="background:#B84A32"></i><small>Terracotta</small></div><div class="sw"><i style="background:#C99A4A"></i><small>Bronze</small></div><div class="sw"><i style="background:#2B1B2F"></i><small>Wine-dark</small></div><div class="sw"><i style="background:#F0E6D2"></i><small>Marble</small></div><div class="sw"><i style="background:#6B7A3A"></i><small>Olive</small></div><div class="sw"><i style="background:#1E2A44"></i><small>Storm</small></div></div></div>
+<div><div class="kicker">Emotional promise</div><h2>Not kill monsters.</h2><p class="section-lede">The sea takes everything; you bring them home. Every run is one leg of the voyage. Ithaca is always in the distance. Failure is the Fates reweaving the route, not a canon death.</p>
+<ul class="list"><li><b>Ship:</b> the emotional anchor, not a health bar.</li><li><b>Crew:</b> flawed, funny, worth saving.</li><li><b>Odysseus:</b> clever, tired, sometimes too proud.</li><li><b>Gods:</b> forces with opinions, not mascots.</li></ul></div></div></div></section>
+<section id="docs"><div class="wrap"><div class="kicker">Design package</div><h2>Everything the team needs to build.</h2>
+<div class="docs">
+<a class="doc" href="docs/GDD.md"><b>Game Design Document</b><span>Loop / systems / modes / UX</span></a>
+<a class="doc" href="docs/WEB_BUILD_SPEC.md"><b>Web Build Spec</b><span>Architecture / SDK / performance</span></a>
+<a class="doc" href="docs/CONTENT_BIBLE.md"><b>Content Bible</b><span>Islands / bosses / crew / gods</span></a>
+<a class="doc" href="docs/BALANCE.md"><b>Balance</b><span>Waves / economy / difficulty</span></a>
+<a class="doc" href="docs/ART_AUDIO_BIBLE.md"><b>Art and Audio Bible</b><span>Palette / UI / animation / sound</span></a>
+<a class="doc" href="docs/PRODUCTION_PLAN.md"><b>Production Plan</b><span>12 weeks / team / milestones</span></a>
+<a class="doc" href="docs/ANALYTICS_KPIS.md"><b>Analytics and KPIs</b><span>Events / funnels / A/B tests</span></a>
+<a class="doc" href="docs/LEGAL_IP.md"><b>Legal and IP</b><span>Public domain / title risk</span></a>
+</div></div></section>
+</main>
+<footer><div class="wrap">SAVE ODYSSEUS - Design package v0.1 - Public-domain Homeric setting - Original art, music, UI, and code required.</div></footer>
+</body>
+</html>
