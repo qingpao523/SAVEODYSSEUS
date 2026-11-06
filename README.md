@@ -29,6 +29,7 @@
 | [docs/ART_AUDIO_BIBLE.md](docs/ART_AUDIO_BIBLE.md) |黑陶美术指导、UI、动画、音频 |
 | [docs/PRODUCTION_PLAN.md](docs/PRODUCTION_PLAN.md) | 12 周计划、团队、里程碑、风险、启动清单 |
 | [docs/ANALYTICS_KPIS.md](docs/ANALYTICS_KPIS.md) |事件模式、漏斗、KPI、A/B 测试 |
+| [docs/COMPETITIVE_REA_ZHAOYUN_ADOU.md](docs/COMPETITIVE_REA_ZHAOYUN_ADOU.md) | 竞品逆向分析：《赵云与阿斗》（REA） |
 | [docs/LEGAL_IP.md](docs/LEGAL_IP.md) |公有领域边界、商标风险、原创性规则 |
 
 ## 平台目标

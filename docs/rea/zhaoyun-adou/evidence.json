@@ -1,0 +1,55 @@
+{
+ "tool": "rea-agents 6.7.0",
+ "target": {
+  "name": "赵云与阿斗",
+  "platform": "4399 H5",
+  "engine": "LayaAir 3.x"
+ },
+ "runs": [
+  {
+   "operation": "analyze_javascript_application",
+   "input": "js/bundle.js + js/index.js",
+   "ast_nodes": 564844,
+   "parse_failures": 0,
+   "semantic_nodes": 20275,
+   "relations": 1881,
+   "unknowns": 20111,
+   "fingerprints": 3293,
+   "evidence_id": "ev_5a31e2bc91fdc911a9d22e97ac0f3999d75384b83d58abdb8e97fbc3f09c0c4d"
+  },
+  {
+   "operation": "analyze_javascript_application",
+   "input": "bundle.deob.js + index.js",
+   "ast_nodes": 547480,
+   "parse_failures": 0,
+   "semantic_nodes": 20275,
+   "relations": 1897,
+   "unknowns": 20111,
+   "fingerprints": 9685,
+   "evidence_id": "ev_334a0111e5bccee227a79c6f36aac1f3ee73929f89652a611eeb04c0917b882a"
+  },
+  {
+   "operation": "inspect_artifact",
+   "input": "game.zip",
+   "nodes": 253,
+   "occurrences": 257,
+   "edges": 256,
+   "root_sha256": "9ac55d76f3f869347f22d3b0db0dc0f0b1acc90ce673caa42b86d85d37bad2c4",
+   "evidence_id": "ev_14ae0ef1eb2e15885d57c8e6ac33d1f4b3cb51b201aed49f19d210a2118a9ff7"
+  },
+  {
+   "operation": "capture_browser_scenario",
+   "input": "local mirror (parent.html + h5api stub)",
+   "evidence_id": "ev_f87d3f3f9a135a1991b014279d806d2a7bebf0b1d5ea38eda7eea9239f1f5e7e"
+  }
+ ],
+ "mirror": {
+  "files": 200,
+  "bytes": 13177569,
+  "missing_after_fix": 0
+ },
+ "strings": {
+  "decoded": 14942,
+  "chinese": 669
+ }
+}
