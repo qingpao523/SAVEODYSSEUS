@@ -1,0 +1,8 @@
+[
+  {"iX":60,"iY":38,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":2,"aLF":2,"aA":6,"st":1,"preset":"normalP"},
+  {"iX":0,"iY":0,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":2,"aLF":2,"aA":6,"st":1,"preset":"fallP"},
+  {"iX":60,"iY":38,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":2.5,"aLF":2.5,"aA":6,"st":1,"preset":"normalN"},
+  {"iX":70,"iY":-10,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":2,"aLF":2,"aA":6,"st":1,"preset":"nHigh"},
+  {"iX":14,"iY":32,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":3,"aLF":3,"aA":6,"st":1,"preset":"nLow"},
+  {"iX":0,"iY":0,"gX":0,"gY":-50,"gYF":-50,"aD":0.3,"aL":2,"aLF":2,"aA":6,"st":1,"preset":"sNormal"}
+]

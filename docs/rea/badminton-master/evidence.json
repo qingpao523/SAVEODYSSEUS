@@ -1,0 +1,43 @@
+{
+ "tool": "rea-agents 6.7.0",
+ "target": {
+  "name": "Badminton Master",
+  "package": "com.tencent.tmgp.yunbu.badmintonleague",
+  "version": "6.3.1.408.405.1129",
+  "publisher": "Shenzhen Yunbu Interactive",
+  "engine": "Cocos2d-x (C++)"
+ },
+ "apk": {
+  "bytes": 77965958,
+  "sha256": "8f11396a26bb6bea6cc3d98f8b5a6bbcf38195030938834e44fdee9cefba3067",
+  "entries": 2935,
+  "arm64_so": 11,
+  "libMyGame_so_bytes": 23479816
+ },
+ "runs": [
+  {
+   "operation": "inspect_artifact",
+   "input": "ymqggs.apk",
+   "nodes": 2768,
+   "occurrences": 2936,
+   "edges": 2935,
+   "evidence_id": "ev_0de91ba0e03e0079cf106a39eddd26005f0d2ba600819f3299f9f3c1e226e79c"
+  },
+  {
+   "operation": "inspect_binary_layout",
+   "input": "lib/arm64-v8a/libMyGame.so",
+   "status": "unsupported_provider",
+   "reason": "provider profile supports Linux x64 only"
+  }
+ ],
+ "assets": {
+  "png": 2005,
+  "xml": 400,
+  "csb": 286,
+  "mp3": 84,
+  "plist": 30,
+  "json": 25,
+  "so": 22,
+  "jpg": 20
+ }
+}

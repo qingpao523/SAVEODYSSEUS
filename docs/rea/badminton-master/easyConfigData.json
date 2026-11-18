@@ -1,0 +1,455 @@
+{
+	"rankData": [
+
+		{
+			"cupNum": 0,
+			"name": 702,
+			"AIRangeMin": 0,
+			"AIRangeMax": 7,
+			"playOffAIM": {
+				"dress": 80,
+				"property": 80
+			},
+			"playOffAIF": {
+				"dress": 97,
+				"property": 97
+			},
+			"totalSets": 1,
+			"totalScore": 5,
+			"winRank":20,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 100,
+			"name": 537,
+			"AIRangeMin": 0,
+			"AIRangeMax": 7,
+			"playOffAIM": {
+				"dress": 81,
+				"property": 81
+			},
+			"playOffAIF": {
+				"dress": 98,
+				"property": 98
+			},
+			"totalSets": 1,
+			"totalScore": 5,
+			"winRank":20,
+			"playOffCnt":3
+
+		},
+		{
+			"cupNum": 200,
+			"name": 703,
+			"AIRangeMin": 8,
+			"AIRangeMax": 15,
+			"playOffAIM": {
+				"dress": 82,
+				"property": 82
+			},
+			"playOffAIF": {
+				"dress": 99,
+				"property": 99
+			},
+			"totalSets": 1,
+			"totalScore": 5,
+			"winRank":30,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 350,
+			"name": 704,
+			"AIRangeMin": 8,
+			"AIRangeMax": 15,
+			"playOffAIM": {
+				"dress": 83,
+				"property": 83
+			},
+			"playOffAIF": {
+				"dress": 100,
+				"property": 100
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":30,
+			"playOffCnt":3
+		},
+
+		{
+			"cupNum": 500,
+			"name": 538,
+			"AIRangeMin": 16,
+			"AIRangeMax": 23,
+			"playOffAIM": {
+				"dress": 84,
+				"property": 84
+			},
+			"playOffAIF": {
+				"dress": 101,
+				"property": 101
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":30,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 650,
+			"name": 705,
+			"AIRangeMin": 16,
+			"AIRangeMax": 23,
+			"playOffAIM": {
+				"dress": 85,
+				"property": 85
+			},
+			"playOffAIF": {
+				"dress": 102,
+				"property": 102
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":30,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 800,
+			"name": 539,
+			"AIRangeMin": 24,
+			"AIRangeMax": 31,
+			"playOffAIM": {
+				"dress": 86,
+				"property": 86
+			},
+			"playOffAIF": {
+				"dress": 103,
+				"property": 103
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":40,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 1000,
+			"name": 706,
+			"AIRangeMin": 24,
+			"AIRangeMax": 31,
+			"playOffAIM": {
+				"dress": 87,
+				"property": 87
+			},
+			"playOffAIF": {
+				"dress": 104,
+				"property": 104
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":60,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 1300,
+			"name": 540,
+			"AIRangeMin": 32,
+			"AIRangeMax": 39,
+			"playOffAIM": {
+				"dress": 88,
+				"property": 88
+			},
+			"playOffAIF": {
+				"dress": 105,
+				"property": 105
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":60,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 1600,
+			"name": 707,
+			"AIRangeMin": 32,
+			"AIRangeMax": 39,
+			"playOffAIM": {
+				"dress": 89,
+				"property": 89
+			},
+			"playOffAIF": {
+				"dress": 106,
+				"property": 106
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":80,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 2000,
+			"name": 708,
+			"AIRangeMin": 40,
+			"AIRangeMax": 47,
+			"playOffAIM": {
+				"dress": 90,
+				"property": 90
+			},
+			"playOffAIF": {
+				"dress": 107,
+				"property": 107
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 2500,
+			"name": 709,
+			"AIRangeMin": 40,
+			"AIRangeMax": 47,
+			"playOffAIM": {
+				"dress": 91,
+				"property": 91
+			},
+			"playOffAIF": {
+				"dress": 108,
+				"property": 108
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 3000,
+			"name": 710,
+			"AIRangeMin": 48,
+			"AIRangeMax": 55,
+			"playOffAIM": {
+				"dress": 92,
+				"property": 92
+			},
+			"playOffAIF": {
+				"dress": 109,
+				"property": 109
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 3500,
+			"name": 711,
+			"AIRangeMin": 56,
+			"AIRangeMax": 63,
+			"playOffAIM": {
+				"dress": 93,
+				"property": 93
+			},
+			"playOffAIF": {
+				"dress": 110,
+				"property": 110
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 4000,
+			"name": 712,
+			"AIRangeMin": 56,
+			"AIRangeMax": 63,
+			"playOffAIM": {
+				"dress": 94,
+				"property": 94
+			},
+			"playOffAIF": {
+				"dress": 111,
+				"property": 111
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 4500,
+			"name": 713,
+			"AIRangeMin": 64,
+			"AIRangeMax": 71,
+			"playOffAIM": {
+				"dress": 95,
+				"property": 95
+			},
+			"playOffAIF": {
+				"dress": 112,
+				"property": 112
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		},
+		{
+			"cupNum": 5000,
+			"name": 714,
+			"AIRangeMin": 72,
+			"AIRangeMax": 79,
+			"playOffAIM": {
+				"dress": 96,
+				"property": 96
+			},
+			"playOffAIF": {
+				"dress": 113,
+				"property": 113
+			},
+			"totalSets": 3,
+			"totalScore": 5,
+			"winRank":100,
+			"playOffCnt":3
+		}
+
+	],
+	"tmAIRankOtherGroup":[
+	[2,2,3,3],
+	[3,4,4,5],
+	[4,5,5,6],
+	[6,6,7,7],
+	[7,7,8,8],
+	[2,3,5,8]
+	],
+	
+	"tmAIRankselfGroup":[
+        [2,2,3,3],
+        [3,4,4,5],
+        [4,5,5,6],
+        [6,6,7,7],
+        [7,7,8,8],
+        [2,3,5,6]
+	],
+	
+	"shortHitDistance": [40, 180],
+	"longHitDistance": [40, 160],
+	"moveTutorialRight":115,
+	"moveTutorialLeft":450,
+	"hitTutorialShort":450,
+	"hitTutorialLong":100,
+	"delayHitFrame":12,
+	"reward":
+	[
+    {
+        "rankMax": 1,
+        "mainCard": {"quality": 1,"amount": 8},
+        "normalCard": {"quality": 0,"amount": 0},
+        "extraCard":{"quality": 1,"amount": 5},
+        "skillCard":{"typeCnt": 2,"amount": 10}
+        
+    },
+    {
+        "rankMax": 2,
+        "mainCard": {"quality": 1,"amount": 10},
+        "normalCard": {"quality": 0,"amount": 0},
+        "extraCard":{"quality": 1,"amount": 1},
+        "skillCard":{"typeCnt": 2,"amount": 10}
+        
+    },
+    {
+        "rankMax": 3,
+        "mainCard": {"quality": 2,"amount": 2},
+        "normalCard":{"quality": 1,"amount": 10},
+        "extraCard":{"quality": 2,"amount": 2},
+        "skillCard":{"typeCnt": 2,"amount": 15}
+	},
+    {
+        "rankMax": 4,
+        "mainCard": {"quality": 2,"amount": 3},
+        "normalCard":{"quality": 1,"amount": 10},
+        "extraCard":{"quality": 2,"amount": 3},
+        "skillCard":{"typeCnt": 3,"amount": 20}
+    },
+    {
+        "rankMax": 5,
+        "mainCard": {"quality": 2,"amount": 6},
+        "normalCard":{"quality": 1,"amount": 10},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 20}
+    },
+    {
+        "rankMax": 6,
+        "mainCard": {"quality": 2,"amount": 6},
+        "normalCard":{"quality": 1,"amount": 10},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 20}
+    },
+    {
+        "rankMax": 7,
+        "mainCard": {"quality": 3,"amount": 1},
+        "normalCard":{"quality": 2,"amount": 15},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 20}
+    },
+    {
+        "rankMax": 8,
+        "mainCard": {"quality": 3,"amount": 4},
+        "normalCard":{"quality": 2,"amount": 15},
+        "extraCard":{"quality": 4,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 20}
+    },
+    {
+        "rankMax": 9,
+        "mainCard": {"quality": 4,"amount":1},
+        "normalCard":{"quality": 3,"amount": 3},
+        "extraCard":{"quality": 4,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 30}
+    },
+    {
+        "rankMax": 10,
+        "mainCard": {"quality": 4,"amount": 3},
+        "normalCard":{"quality": 3,"amount": 3},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 30}
+    },
+    {
+        "rankMax": 11,
+        "mainCard": {"quality": 4,"amount": 3},
+        "normalCard":{"quality": 3,"amount": 3},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 30}
+    },
+    {
+        "rankMax": 99,
+        "mainCard": {"quality": 4,"amount": 3},
+        "normalCard":{"quality": 3,"amount": 3},
+        "extraCard":{"quality": 3,"amount": 1},
+        "skillCard":{"typeCnt": 3,"amount": 30}
+    }
+],
+"hitRects":[
+    {"x":-100,"y":25,"w":220,"h":100,"name":"rectNormalDown"},
+    {"x":-100,"y":125,"w":220,"h":125,"name":"rectNormalUp"},
+    {"x":-130,"y":25,"w":280,"h":225,"name":"rectMax"},
+    {"x":-30,"y":210,"w":70,"h":30,"name":"rectLowSmash"},
+    {"x":-120,"y":250,"w":220,"h":125,"name":"rectJumpSmash"},
+    {"x":-15,"y":25,"w":35,"h":225,"name":"rectPerfect"}
+    
+],
+"hitRectsNewPlayer":[
+    {"x":-120,"y":25,"w":260,"h":100,"name":"rectNormalDown"},
+    {"x":-120,"y":125,"w":260,"h":125,"name":"rectNormalUp"},
+    {"x":-130,"y":25,"w":280,"h":225,"name":"rectMax"},
+    {"x":-30,"y":210,"w":70,"h":30,"name":"rectLowSmash"},
+    {"x":-140,"y":250,"w":260,"h":125,"name":"rectJumpSmash"},
+    {"x":-15,"y":25,"w":30,"h":225,"name":"rectPerfect"}
+],
+"hitRectsAI":[
+    {"x":-80,"y":25,"w":180,"h":100,"name":"rectNormalDown"},
+    {"x":-80,"y":125,"w":180,"h":125,"name":"rectNormalUp"},
+    {"x":-130,"y":25,"w":280,"h":225,"name":"rectMax"},
+    {"x":-30,"y":210,"w":70,"h":30,"name":"rectLowSmash"},
+    {"x":-120,"y":250,"w":220,"h":125,"name":"rectJumpSmash"},
+    {"x":-15,"y":25,"w":40,"h":225,"name":"rectPerfect"}
+    
+]
+
+}

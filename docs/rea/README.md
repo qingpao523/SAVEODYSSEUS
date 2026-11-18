@@ -3,6 +3,7 @@
 | 目标 | 状态 | 产物 |
 |------|------|------|
 | 赵云与阿斗 | 完成 | [COMPETITIVE_REA_ZHAOYUN_ADOU.md](../COMPETITIVE_REA_ZHAOYUN_ADOU.md) + `data/` |
+| 羽毛球高高手 | 完成 | [COMPETITIVE_REA_BADMINTON.md](../COMPETITIVE_REA_BADMINTON.md) + `badminton-master/` |
 | 这关可真行 | 待取证 | 见下 |
 
 ## 这关可真行（待取证）

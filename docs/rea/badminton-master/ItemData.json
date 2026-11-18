@@ -1,0 +1,246 @@
+[{
+		"id": "g7_spaa1701090.coins3000.199",
+		"productid": "1",
+		"name": "3000金币",
+		"desc": "获得3000金币",
+		"Price": 12
+	},
+	{
+		"id": "g7_spaa1701061.coins7500.499",
+		"productid": "2",
+		"name": "7600金币",
+		"desc": "获得7600金币",
+		"Price": 30
+	},
+	{
+		"id": "g7_spaa1701061.coins16500.999",
+		"productid": "3",
+		"name": "16500金币",
+		"desc": "获得16500金币",
+		"Price": 68
+	},
+	{
+		"id": "g7_spaa1701061.coins34500.1999",
+		"productid": "4",
+		"name": "34500金币",
+		"desc": "获得34500金币",
+		"Price": 128
+	},
+	{
+		"id": "g7_spaa1701061.coins90000.4999",
+		"productid": "5",
+		"name": "90000金币",
+		"desc": "获得90000金币",
+		"Price": 328
+	},
+	{
+		"id": "g7_spaa1701061.startergift.399",
+		"productid": "6",
+		"name": "新手礼包",
+		"desc": "获得3000金币,2张经验券和1个惊喜装备",
+		"Price": 25
+	},
+	{
+		"id": "g7_spaa1701061.challenge.299",
+		"productid": "7",
+		"name": "挑战礼包",
+		"desc": "获得2000金币,1张经验券和1个惊喜装备",
+		"Price": 18
+	},
+	{
+		"id": "g7_spaa1701061.weekly01.199",
+		"productid": "8",
+		"name": "周礼包1",
+		"desc": "获得1000金币和1双冠军袜子",
+		"Price": 12
+	},
+	{
+		"id": "g7_spaa1701061.weekly02.299",
+		"productid": "9",
+		"name": "周礼包2",
+		"desc": "获得2600金币和1双冠军鞋子",
+		"Price": 18
+	},
+	{
+		"id": "g7_spaa1701061.weekly03.499",	
+		"productid": "10",
+		"name": "周礼包3",
+		"desc": "获得5800金币和1条冠军短裤",
+		"Price": 30
+	},
+	{
+		"id": "g7_spaa1701061.weekly04.499",
+		"productid": "11",
+		"name": "周礼包4",
+		"desc": "获得5800金币和1条冠军短裙",
+		"Price": 30
+	},
+	{
+		"id": "g7_spaa1701061.weekly05.699",
+		"productid": "12",
+		"name": "周礼包5",
+		"desc": "获得9000金币和1件冠军上衣",
+		"Price": 45
+	},
+	{
+		"id": "g7_spaa1701061.starterlimit.099",
+		"productid": "14",
+		"name": "新手礼包2",
+		"desc": "获得1000金币，1张经验券，王者球拍",
+		"Price": 6
+	},
+	{
+		"id": "g7_spaa1701061.challenge2.199",
+		"productid": "15",
+		"name": "挑战礼包2",
+		"desc": "获得1000金币，1张经验券和1个惊喜装备",
+		"Price": 6
+	},
+	{
+		"id": "g7_spaa1701090.noads.099",
+		"productid": "16",
+		"name": "广告移除",
+		"desc": "移除广告并获得2张经验券",
+		"Price": 6
+	},
+	{
+		"productid": "17",
+		"id": "g7_spaa1701090.gems130.199",
+		"name": "130宝石",
+		"desc": "获得130宝石",
+		"Price": 12
+	},
+	{
+		"productid": "18",
+		"id": "g7_spaa1701090.gems360.499",
+		"name": "360宝石",
+		"desc": "获得360宝石",
+		"Price": 30
+	},
+	{
+		"productid": "19",
+		"id": "g7_spaa1701090.gems850.999",
+		"name": "850宝石",
+		"desc": "获得850宝石",
+		"Price": 68
+	},
+	{
+		"productid": "20",
+		"id": "g7_spaa1701090.gems1600.1999",
+		"name": "1600宝石",
+		"desc": "获得1600宝石",
+		"Price": 128
+	},
+	{
+		"productid": "21",
+		"id": "g7_spaa1701090.gems4600.4999",
+		"name": "4600宝石",
+		"desc": "获得4600宝石",
+		"Price": 328
+	},
+	{
+		"productid": "22",
+		"id": "g7_spaa1701090.noads.299",
+		"name": "去广告",
+		"desc": "去除广告",
+		"Price": 18
+	},
+	{
+		"productid": "23",
+		"id": "g7_spaa1701090.startergift.099",
+		"name": "新手礼包1",
+		"desc": "获得50宝石_1000金币_2张天赋券和1个王者球拍",
+		"Price": 6
+	},
+	{
+		"productid": "24",
+		"id": "g7_spaa1701090.startergift4.099",
+		"name": "新手礼包_限时",
+		"desc": "获得200宝石_5000金币_5张天赋券和1个王者球拍",
+		"Price": 6
+	},
+	{
+		"productid": "25",
+		"id": "g7_spaa1701090.championshirt.299",
+		"name": "王者战衣",
+		"desc": "获得王者战衣",
+		"Price": 18
+	},
+	{
+		"productid": "26",
+		"id": "g7_spaa1701090.championshort.199",
+		"name": "王者短裤",
+		"desc": "获得王者短裤",
+		"Price": 12
+	},
+	{
+		"productid": "27",
+		"id": "g7_spaa1701090.championskirt.199",
+		"name": "王者短裙",
+		"desc": "获得王者短裙",
+		"Price": 12
+	},
+	{
+		"productid": "28",
+		"id": "g7_spaa1701090.championsock.099",
+		"name": "王者袜",
+		"desc": "获得王者袜",
+		"Price": 6
+	},
+	{
+		"productid": "29",
+		"id": "g7_spaa1701090.championshoes.199",
+		"name": "王者战靴",
+		"desc": "获得王者战靴",
+		"Price": 12
+	},
+	{
+		"productid": "30",
+		"id": "g7_spaa1701061.challenge.299",
+		"name": "成长礼包1",
+		"desc": "获得2000金币,1张经验券和1个惊喜装备",
+		"Price": 18
+	},
+	{
+		"productid": "31",
+		"id": "g7_spaa1701061.challenge2.199",
+		"name": "成长礼包2",
+		"desc": "获得1000金币，1张经验券和1个惊喜装备",
+		"Price": 12
+	},
+	{
+		"productid": "32",
+		"id": "g7_spaa1701061.cdk",
+		"name": "1000金币10宝石",
+		"desc": "获得1000金币10宝石",
+		"Price": 6
+	},
+	{
+		"productid": "33",
+		"id": "g7_spaa1701090.gems60.099",
+		"name": "60宝石",
+		"desc": "获得60宝石",
+		"Price": 6
+	},
+	{
+		"id": "g7_spaa1701090.championpack.799",
+		"productid": "45",
+		"name": "王者礼包",
+		"desc": "获得王者上衣，王者短裤，王者短裙，王者袜，王者战靴",
+		"Price": 55
+	},
+	{
+		"id": "g7_spaa1701090.moonfestpack.299",
+		"productid": "46",
+		"name": "中秋礼包",
+		"desc": "获得兔耳朵，金币1500",
+		"Price": 18
+	},
+	{
+		"id": "g7_spaa1701090.halloweenpack.699",
+		"productid": "47",
+		"name": "万圣节礼包",
+		"desc": "获得万圣节皮肤，金币9999",
+		"Price": 18
+	}
+]
